@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "PROTOCOL ZERO // RangoEth Whitelist Terminal" },
       { name: "description", content: "Covert recruitment terminal for RangoEth — a 1,500-supply Ethereum NFT collective of marked survivors." },
       { name: "author", content: "RangoEth" },
-      { property: "og:title", content: "PROTOCOL ZERO // RangoEth" },
-      { property: "og:description", content: "Establish comms. Verify identity. Secure clearance." },
+      { property: "og:title", content: "PROTOCOL ZERO // RangoEth Whitelist Terminal" },
+      { property: "og:description", content: "Covert recruitment terminal for RangoEth — a 1,500-supply Ethereum NFT collective of marked survivors." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "PROTOCOL ZERO // RangoEth Whitelist Terminal" },
+      { name: "twitter:description", content: "Covert recruitment terminal for RangoEth — a 1,500-supply Ethereum NFT collective of marked survivors." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Yz2293qzFjbarreeJtVVtcHPIqG2/social-images/social-1779548827616-WhatsApp_Image_2026-05-23_at_1.16.48_PM_(2).webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Yz2293qzFjbarreeJtVVtcHPIqG2/social-images/social-1779548827616-WhatsApp_Image_2026-05-23_at_1.16.48_PM_(2).webp" },
     ],
     links: [
       {
