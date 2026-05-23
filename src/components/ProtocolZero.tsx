@@ -9,11 +9,10 @@ import scoutImg from "@/assets/scout.jpeg";
 // The script should accept POST { wallet, twitter, qtLink, friends, ts }
 // as text/plain JSON (no-cors mode dodges preflight).
 // ============================================================================
-const WEBHOOK_URL = "https://script.google.com/macros/s/REPLACE_WITH_YOUR_DEPLOYMENT_ID/exec";
+const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxr2niQ2_whrwYzBa13AdRPEBDdEGjwC3yT8amzmxNL2jBgbQ7ecmp-WyQWoy2Rie9w/exec";
 
-// Swap with the real RangoEth X profile + pinned tweet when ready.
-const TWITTER_PROFILE_URL = "https://x.com/RangoEth";
-const PINNED_TWEET_URL = "https://x.com/RangoEth/status/0000000000000000000";
+const TWITTER_PROFILE_URL = "https://x.com/RangoETH_";
+const PINNED_TWEET_URL = "https://x.com/i/status/2058103735016919478";
 
 type Status = "idle" | "loading" | "error" | "success";
 
