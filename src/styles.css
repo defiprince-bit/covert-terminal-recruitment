@@ -149,8 +149,12 @@
     color: var(--color-foreground);
     font-family: var(--font-mono);
     background-image:
+      radial-gradient(ellipse 90% 60% at 80% 0%, rgba(255, 176, 64, 0.32), transparent 60%),
+      radial-gradient(ellipse 80% 70% at 10% 100%, rgba(86, 41, 168, 0.5), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 50% 50%, rgba(216, 92, 56, 0.18), transparent 70%),
       url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.93  0 0 0 0 0.91  0 0 0 0 0.85  0 0 0 0.08 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
     background-repeat: repeat;
+    background-attachment: fixed;
   }
 
   .scanlines {
