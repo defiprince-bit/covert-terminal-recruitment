@@ -143,7 +143,7 @@ export function ProtocolZero() {
             </PillRow>
 
             {/* 0x03 — QT pinned post */}
-            <PillRow label={<>QT pinned post with<br />“bobos are coming”</>}>
+            <PillRow label={<>QT pinned post with<br />“rango is coming”</>}>
               <input
                 value={qtLink}
                 onChange={(e) => setQtLink(e.target.value)}
